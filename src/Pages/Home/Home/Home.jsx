@@ -1,11 +1,11 @@
-import image from "../../../assets/logoIcon.gif"
+import About from "../About/About";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <img src={image} alt="" />
+            <About></About>
         </div>
     );
 };

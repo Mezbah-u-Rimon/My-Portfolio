@@ -1,8 +1,10 @@
+import about from "../../../assets/images/about.png"
+
 
 const About = () => {
     return (
         <div>
-            about page  is here
+            <img src={about} alt="" />
         </div>
     );
 };

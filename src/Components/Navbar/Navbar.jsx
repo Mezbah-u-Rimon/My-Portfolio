@@ -1,4 +1,6 @@
+import logo from "../../assets/images/logo1.png"
 import { NavLink } from "react-router-dom";
+
 
 
 const Navbar = () => {
@@ -6,18 +8,18 @@ const Navbar = () => {
     const navbar = <>
 
         <NavLink to="/" className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "border-l-4 border-red-600 px-5 py-2 rounded-full mx-3 text-lg font-medium text-red-600" : " bg-white px-5 py-2 text-lg font-medium"}> Home
+            isPending ? "pending" : isActive ? "border-l-4 border-orange-400 px-5 py-2 rounded-full mx-3 text-lg font-medium text-orange-400" : " px-5 py-2 text-lg font-medium"}> Home
         </NavLink>
 
         <NavLink to="/about" className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "border-l-4 border-red-600 px-5 py-2 rounded-full mx-3 text-lg font-medium text-red-600" : " bg-white px-5 py-2 text-lg font-medium"}> About
+            isPending ? "pending" : isActive ? "border-l-4 border-orange-400 px-5 py-2 rounded-full mx-3 text-lg font-medium text-orange-400" : "px-5 py-2 text-lg font-medium"}> About
         </NavLink>
     </>
 
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar fixed max-w-screen-xl z-10 bg-opacity-30 bg-slate-400">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,7 +29,7 @@ const Navbar = () => {
                             {navbar}
                         </ul>
                     </div>
-                    <h1 style={{ fontFamily: "'Pattaya', sans-serif", }} className="btn btn-ghost text-xl "> MUZBAH </h1>
+                    <img src={logo} alt="" className="w-28" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
