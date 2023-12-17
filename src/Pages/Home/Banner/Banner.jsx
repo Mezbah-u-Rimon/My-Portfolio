@@ -1,12 +1,12 @@
 import banner from "../../../assets/images/BG-IMG-1.gif"
-import about from "../../../assets/images/about.png"
+import rimon from "../../../assets/images/rimon0.png"
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     // https://i.ibb.co/HpmkfSt/abstract.jpg
     return (
-        <div style={{ backgroundImage: `url(${banner})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full">
-            <div className="w-full h-full  bg-[#c9ffed52] pt-24 flex justify-center items-center flex-col lg:flex-row px-5 md:px-24 gap-5">
+        <div style={{ backgroundImage: `url(${banner})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full lg:h-screen">
+            <div className="w-full h-full  bg-[#c9ffed52] pt-24  flex justify-center items-center flex-col lg:flex-row px-5 md:px-24 gap-5">
 
                 {/* bg-color */}
                 {/* bg-[#C9FFED] */}
@@ -36,7 +36,7 @@ const Banner = () => {
                 </div>
 
                 <div className="flex-1">
-                    <img className="h-[500px] rounded-lg" src={about} alt="" />
+                    <img className=" rounded-lg" src={rimon} alt="" />
                 </div>
             </div>
         </div>

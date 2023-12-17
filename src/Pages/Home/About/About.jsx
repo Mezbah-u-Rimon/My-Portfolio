@@ -11,7 +11,7 @@ const About = () => {
                 <img className="h-auto" src={mezbah} alt="" />
             </div>
             <div className="flex-1">
-                <h1 className="text-5xl font-bold text-orange-500 mb-8"> About Me </h1>
+                <h1 className="text-4xl font-bold text-orange-500 mb-8"> About Me </h1>
                 <p className="text-gray-500">
                     Hello, My name is MUzbah uddin Rimon. I’m a dedicated professional Web Developer. I'm working as a HTML, CSS, tailwindCss, JavaScript, React.Js, Node, Express, Mongodb, Firebase and WordPress Developer. My job is to build your website so that it is functional and user-friendly but at the same time attractive. I create top-quality, user-friendly professional and modern website design responsive pages.  My goal is to provide my customers exactly what they want and guide them throughout the process. Let's get in touch and start working on your dream website!
                 </p>
@@ -24,6 +24,9 @@ const About = () => {
                     </a>
                     <a href="https://www.instagram.com/mesbah_375/" target="_blank" rel="noreferrer">
                         <img className="w-[50px]" src={instagram} alt="" />
+                    </a>
+                    <a href="https://github.com/Mezbah-u-Rimon" target="_blank" rel="noreferrer">
+                        <img className="w-[50px]" src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" alt="" />
                     </a>
 
                 </div>
