@@ -28,8 +28,29 @@ const Contact = () => {
             <div className="hero min-h-screen bg-base-200 rounded-2xl p-10">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <h1 className=" text-4xl font-bold text-orange-500 mb-4"> Contact With Me
+                        </h1>
+                        <h3 className='text-2xl font-bold '>
+                            Let's work together to build outstanding web experiences!
+                        </h3>
+                        <p className="pb-6 pt-3">
+                            I work closely with my clients on each projects to create not only an amazing work, that will help the business grow, but create a long term relationship of trust & caring...
+                        </p>
+                        <div className='mb-5'>
+                            <h5 className='text-xl font-bold text-gray-600'> My Address
+                            </h5>
+                            <p className='text-lg'> Feni, Bangladesh </p>
+                        </div>
+                        <div className='mb-5'>
+                            <h5 className='text-xl font-bold text-gray-600'> Contact Email
+                            </h5>
+                            <p className='text-lg'> rimonmr444@gmail.com </p>
+                        </div>
+                        <div className='mb-5'>
+                            <h5 className='text-xl font-bold text-gray-600'>Find Me on Phone/Whatsapp/Telegram
+                            </h5>
+                            <p className='text-lg'> +8801610975217 </p>
+                        </div>
                     </div>
                     <div className="card shrink-0 w-full shadow-2xl bg-base-100 lg:w-1/2">
                         <form className="card-body" ref={form} onSubmit={sendEmail}>
@@ -50,7 +71,7 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text"> Message </span>
                                 </label>
-                                <textarea name="message" id="" cols="20" rows="5" className="border rounded-lg w-full p-4" placeholder="Your Message">  </textarea>
+                                <textarea name="message" id="" cols="20" rows="3" className="border rounded-lg w-full p-4" placeholder="Your Message">  </textarea>
                             </div>
                             <div className="form-control mt-6">
                                 <button type="submit" className="btn bg-orange-400"> Send Message </button>

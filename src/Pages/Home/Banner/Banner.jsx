@@ -8,8 +8,6 @@ const Banner = () => {
         <div style={{ backgroundImage: `url(${banner})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full lg:h-screen">
             <div className="w-full h-full  bg-[#c9ffed52] pt-24  flex justify-center items-center flex-col lg:flex-row px-5 md:px-24 gap-5">
 
-                {/* bg-color */}
-                {/* bg-[#C9FFED] */}
                 <div className="flex-1">
                     <h5 className="text-xl font-bold text-orange-400"> Hello I'm Muzbah Uddin </h5>
                     <TypeAnimation
