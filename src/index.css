@@ -1,7 +1,8 @@
   @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Pattaya&display=swap');
 
   body {
-      font-family: 'El Messiri', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    scroll-behavior: smooth;
   }
 
   @tailwind base;

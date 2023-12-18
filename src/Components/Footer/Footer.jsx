@@ -1,5 +1,4 @@
 import logo from "../../assets/images/logo1.png"
-import bgImg from "../../assets/images/abstract.jpg"
 import linkedin from "../../assets/about/linkedin.png"
 import twitter from "../../assets/about/twitter.png"
 import instagram from "../../assets/about/instagram.png"
@@ -9,7 +8,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div style={{ backgroundImage: `url(${bgImg})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full">
+        <div style={{ backgroundImage: `url(https://i.ibb.co/HpmkfSt/abstract.jpg)`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full">
             <div className="w-full h-full  bg-[#cdcdcd80]  px-5 ">
                 <footer className="footer p-10">
                     <div className="flex flex-col gap-5 items-center">

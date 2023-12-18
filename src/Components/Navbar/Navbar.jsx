@@ -1,19 +1,26 @@
 import logo from "../../assets/images/logo1.png"
-import { NavLink } from "react-router-dom";
+import cv from "../../../public/cv.pdf"
 
 
 
 const Navbar = () => {
 
     const navbar = <>
-
-        <NavLink to="/" className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "border-l-4 border-orange-400 px-5 py-2 rounded-full mx-3 text-lg font-medium text-orange-400" : " px-5 py-2 text-lg font-medium"}> Home
-        </NavLink>
-
-        <NavLink to="/about" className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "border-l-4 border-orange-400 px-5 py-2 rounded-full mx-3 text-lg font-medium text-orange-400" : "px-5 py-2 text-lg font-medium"}> About
-        </NavLink>
+        <li>
+            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#home"> Home </a>
+        </li>
+        <li>
+            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#about"> About </a>
+        </li>
+        <li>
+            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#skill"> Skill </a>
+        </li>
+        <li>
+            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#portfolio"> Portfolio </a>
+        </li>
+        <li>
+            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#contact"> Contact </a>
+        </li>
     </>
 
 
@@ -37,7 +44,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <button className="btn bg-white rounded-full font-bold text-black shadow-lg shadow-orange-300 border-2 border-orange-200 mr-5"> <a href={cv} download="cv.pdf"> MY Resume </a></button>
                 </div>
             </div>
         </div>

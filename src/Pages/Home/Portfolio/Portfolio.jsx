@@ -4,13 +4,13 @@ import './portfolio.css'
 const Portfolio = () => {
 
     return (
-        <div className="text-center px-5 md:px-12 lg:px-24 pb-24">
+        <div id='portfolio' className="text-center px-5 md:px-12 lg:px-24 pb-24">
             <h1 className="text-4xl font-bold text-orange-500 mb-4"> My Amazing Works  </h1>
             <p className="lg:w-[500px] mx-auto mb-12">
                 If you need to make a website you need to do step by step and every step is the services and I will provide you with everything
             </p>
 
-            <ul className="timeline timeline-vertical">
+            <ul className="lg:timeline lg:timeline-vertical">
                 <li>
                     <div className='timeline-start timeline-box'>
                         <div className="card bg-base-100 shadow-xl  shadow-orange-300">

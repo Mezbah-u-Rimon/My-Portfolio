@@ -5,8 +5,9 @@ import instagram from "../../../assets/about/instagram.png"
 
 
 const About = () => {
+
     return (
-        <div className="p-5 md:p-12 lg:p-24 flex flex-col lg:flex-row items-center gap-8">
+        <div id="about" className="p-5 md:p-12 lg:p-24 flex flex-col lg:flex-row items-center gap-8">
             <div className="flex-1">
                 <img className="h-auto" src={mezbah} alt="" />
             </div>

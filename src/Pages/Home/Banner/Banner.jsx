@@ -1,11 +1,13 @@
 import banner from "../../../assets/images/BG-IMG-1.gif"
 import rimon from "../../../assets/images/rimon0.png"
 import { TypeAnimation } from 'react-type-animation';
+import cv from "../../../../public/cv.pdf"
+
 
 const Banner = () => {
-    // https://i.ibb.co/HpmkfSt/abstract.jpg
+
     return (
-        <div style={{ backgroundImage: `url(${banner})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full lg:h-screen">
+        <div id="home" style={{ backgroundImage: `url(${banner})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full lg:h-screen">
             <div className="w-full h-full  bg-[#c9ffed52] pt-24  flex justify-center items-center flex-col lg:flex-row px-5 md:px-24 gap-5">
 
                 <div className="flex-1">
@@ -30,7 +32,7 @@ const Banner = () => {
                     <p className="text-gray-500">
                         I'm creative Front-End Developer based in MERN Stack, and I'm very passionate and dedicated to my work
                     </p>
-                    <button className="btn bg-white rounded-full font-bold text-black mt-5 shadow-lg shadow-orange-300 border-2 border-orange-200"> DOWNLOAD MY CV </button>
+                    <button className="btn bg-white rounded-full font-bold text-black mt-5 shadow-lg shadow-orange-300 border-2 border-orange-200"> <a href={cv} download="cv.pdf">DOWNLOAD MY CV </a></button>
                 </div>
 
                 <div className="flex-1">
