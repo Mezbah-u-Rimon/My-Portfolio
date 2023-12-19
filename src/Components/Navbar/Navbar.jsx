@@ -44,7 +44,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn bg-white rounded-full font-bold text-black shadow-lg shadow-orange-300 border-2 border-orange-200 mr-5"> <a href={cv} download="cv.pdf"> MY Resume </a></button>
+                    <button className="btn bg-white rounded-full font-bold text-black shadow-lg shadow-orange-300 border-2 border-orange-200 lg:mr-5"> <a href={cv} download="cv.pdf"> MY Resume </a></button>
                 </div>
             </div>
         </div>

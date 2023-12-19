@@ -34,8 +34,8 @@ const Contact = () => {
 
 
     return (
-        <div id='contact' className="px-5 md:px-12 lg:px-24 pb-24 pt-10">
-            <div className="hero min-h-screen bg-base-200 rounded-2xl p-10">
+        <div id='contact' className="md:px-12 lg:px-24 pb-24 pt-10">
+            <div className="hero min-h-screen bg-base-200 rounded-2xl lg:p-10">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="text-center lg:text-left">
                         <h1 className=" text-4xl font-bold text-orange-500 mb-4"> Contact With Me
