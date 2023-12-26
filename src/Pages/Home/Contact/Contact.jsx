@@ -38,25 +38,27 @@ const Contact = () => {
             <div className="hero min-h-screen bg-base-200 rounded-2xl lg:p-10">
                 <div className="hero-content flex-col lg:flex-row px-5 pt-8">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-4xl font-bold text-orange-500 mb-4 "> Contact With Me
+                        <h1 className="text-4xl font-bold text-orange-500 mb-4" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"> Contact With Me
                         </h1>
-                        <h3 className='text-2xl font-bold '>
+                        <h3 className='text-2xl font-bold' data-aos="fade-right">
                             Let's work together to build outstanding web experiences!
                         </h3>
-                        <p className="pb-6 pt-3">
+                        <p className="pb-6 pt-3" data-aos="fade-right">
                             I work closely with my clients on each projects to create not only an amazing work, that will help the business grow, but create a long term relationship of trust & caring...
                         </p>
-                        <div className='mb-5'>
+                        <div className='mb-5' data-aos="fade-right">
                             <h5 className='text-xl font-bold text-gray-600'> My Address
                             </h5>
                             <p className='text-lg'> Feni, Bangladesh </p>
                         </div>
-                        <div className='mb-5'>
+                        <div className='mb-5' data-aos="fade-right">
                             <h5 className='text-xl font-bold text-gray-600'> Contact Email
                             </h5>
                             <p className='text-lg'> rimonmr444@gmail.com </p>
                         </div>
-                        <div className='mb-5'>
+                        <div className='mb-5' data-aos="fade-right">
                             <h5 className='text-xl font-bold text-gray-600'>Find Me on Phone/Whatsapp/Telegram
                             </h5>
                             <p className='text-lg'> +8801610975217 </p>

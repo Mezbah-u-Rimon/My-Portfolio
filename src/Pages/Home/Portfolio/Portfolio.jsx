@@ -5,10 +5,15 @@ const Portfolio = () => {
 
     return (
         <div id='portfolio' className="text-center px-5 md:px-12 lg:px-24 py-10">
-            <h1 className="text-4xl mt-10 md:mt-0 font-bold text-orange-500 mb-4"> My Amazing Works  </h1>
-            <p className="lg:w-[500px] mx-auto mb-12">
-                If you need to make a website you need to do step by step and every step is the services and I will provide you with everything
-            </p>
+            <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                <h1 className="text-4xl mt-10 md:mt-0 font-bold text-orange-500 mb-4"> My Amazing Works  </h1>
+                <p className="lg:w-[500px] mx-auto mb-12">
+                    If you need to make a website you need to do step by step and every step is the services and I will provide you with everything
+                </p>
+            </div>
+
             <ul className="lg:timeline lg:timeline-vertical">
                 <li>
                     <div className='timeline-start timeline-box'>

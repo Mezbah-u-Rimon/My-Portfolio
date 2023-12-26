@@ -36,7 +36,7 @@ const Banner = () => {
                     <button className="btn bg-white rounded-full font-bold text-black mt-5  hover:bg-[#c9ffed8a] shadow-orange-300 shadow-lg border-2 border-orange-200"> <a href={cv} download="Muzbah Uddin Resume.pdf">DOWNLOAD MY CV </a></button>
                 </div>
 
-                <div className="flex-1">
+                <div className="flex-1" data-aos="fade-left">
                     <img className="rounded-full bg-[#c9ffed52] shadow-lg shadow-orange-300 border border-orange-200" src={rimon} alt="" />
                 </div>
             </div>
