@@ -9,7 +9,7 @@ const Footer = () => {
 
     return (
         <div style={{ backgroundImage: `url(https://i.ibb.co/HpmkfSt/abstract.jpg)`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="w-full">
-            <div className="w-full h-full  bg-[#cdcdcd80]  px-5 ">
+            <div className="w-full h-full bg-[#cdcdcd80]  px-5 ">
                 <footer className="footer p-10">
                     <div className="flex flex-col gap-5 items-center">
                         <img className="w-[200px]" src={logo} alt="" />
