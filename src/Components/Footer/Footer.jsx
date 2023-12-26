@@ -13,7 +13,7 @@ const Footer = () => {
                 <footer className="footer p-10">
                     <div className="flex flex-col gap-5 items-center">
                         <img className="w-[200px]" src={logo} alt="" />
-                        <p className="w-[300px] text-center text-black">
+                        <p className="w-[300px] text-justify text-black">
                             Web Development is my fashion. I enjoy it a lot.My mission is happening.I will be a full stack web developer and Senior Web Developer within the next 2 years.
                         </p>
                     </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </footer>
                 <footer className="footer footer-center p-4">
                     <aside>
-                        <p>© {currentYear} Developed with love by <span className="text-orange-600">
+                        <p>© {currentYear} Created & Developed by <span className="text-orange-600">
                             Muzbah Uddin Rimon
                         </span> </p>
                     </aside>

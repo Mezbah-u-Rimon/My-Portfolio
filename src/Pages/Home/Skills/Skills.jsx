@@ -2,7 +2,7 @@
 
 const Skills = () => {
     return (
-        <div id="skill" className=" px-5 md:px-12 lg:px-24 pb-24 pt-10">
+        <div id="skill" className="px-5 md:px-12 lg:px-24 py-10 lg:py-0">
             <h1 className="text-center text-4xl font-bold text-orange-500 mb-4"> My Expertise
             </h1>
             <p className="lg:w-[500px] mx-auto mb-12 text-center">

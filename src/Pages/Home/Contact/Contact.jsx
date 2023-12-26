@@ -36,9 +36,9 @@ const Contact = () => {
     return (
         <div id='contact' className="md:px-12 lg:px-24 pb-24 pt-10">
             <div className="hero min-h-screen bg-base-200 rounded-2xl lg:p-10">
-                <div className="hero-content flex-col lg:flex-row">
+                <div className="hero-content flex-col lg:flex-row px-5 pt-8">
                     <div className="text-center lg:text-left">
-                        <h1 className=" text-4xl font-bold text-orange-500 mb-4"> Contact With Me
+                        <h1 className="text-4xl font-bold text-orange-500 mb-4 "> Contact With Me
                         </h1>
                         <h3 className='text-2xl font-bold '>
                             Let's work together to build outstanding web experiences!
