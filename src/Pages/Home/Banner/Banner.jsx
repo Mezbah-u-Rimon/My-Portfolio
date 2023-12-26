@@ -1,7 +1,7 @@
 import banner from "../../../assets/images/BG-IMG-1.gif"
 import rimon from "../../../assets/images/rimon0.png"
 import { TypeAnimation } from 'react-type-animation';
-import cv from "../../../../public/cv.pdf"
+import cv from "../../../../public/Muzbah Uddin.pdf"
 
 
 const Banner = () => {
@@ -32,7 +32,7 @@ const Banner = () => {
                     <p className="text-gray-500">
                         I'm creative Front-End Developer based in MERN Stack, and I'm very passionate and dedicated to my work
                     </p>
-                    <button className="btn bg-white rounded-full font-bold text-black mt-5 shadow-lg shadow-orange-300 border-2 border-orange-200"> <a href={cv} download="cv.pdf">DOWNLOAD MY CV </a></button>
+                    <button className="btn bg-white rounded-full font-bold text-black mt-5 shadow-lg hover:bg-[#c9ffed8a] shadow-orange-300 border-2 border-orange-200"> <a href={cv} download="Muzbah Uddin Resume.pdf">DOWNLOAD MY CV </a></button>
                 </div>
 
                 <div className="flex-1">

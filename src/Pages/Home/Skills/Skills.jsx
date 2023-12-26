@@ -63,6 +63,10 @@ const Skills = () => {
                     <h3 className="text-xl font-bold"> Netlify </h3>
                 </div>
                 <div className="flex justify-center items-center gap-2 flex-col hover:shadow-lg py-3 hover:shadow-orange-300">
+                    <img className="h-[64px]" src="https://cdn-icons-png.flaticon.com/128/5968/5968705.png" alt="" />
+                    <h3 className="text-xl font-bold"> Figma </h3>
+                </div>
+                <div className="flex justify-center items-center gap-2 flex-col hover:shadow-lg py-3 hover:shadow-orange-300">
                     <img className="h-[64px]" src="https://cdn-icons-png.flaticon.com/128/174/174881.png" alt="" />
                     <h3 className="text-xl font-bold"> Wordpress </h3>
                 </div>

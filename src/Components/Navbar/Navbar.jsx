@@ -1,5 +1,5 @@
 import logo from "../../assets/images/logo1.png"
-import cv from "../../../public/cv.pdf"
+import cv from "../../../public/Muzbah Uddin.pdf"
 
 
 
@@ -7,19 +7,19 @@ const Navbar = () => {
 
     const navbar = <>
         <li>
-            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#home"> Home </a>
+            <a className="border-l-4 border-orange-400  hover:rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#home"> Home </a>
         </li>
         <li>
-            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#about"> About </a>
+            <a className="border-l-4 border-orange-400 hover:rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#about"> About </a>
         </li>
         <li>
-            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#skill"> Skill </a>
+            <a className="border-l-4 border-orange-400   hover:rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#skill"> Skill </a>
         </li>
         <li>
-            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#portfolio"> Portfolio </a>
+            <a className="border-l-4 border-orange-400   hover:rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#portfolio"> Portfolio </a>
         </li>
         <li>
-            <a className="border-l-4 border-orange-400  rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#contact"> Contact </a>
+            <a className="border-l-4 border-orange-400  hover:rounded-full mx-3 text-black px-5 py-2 text-lg font-medium" href="#contact"> Contact </a>
         </li>
     </>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn bg-white rounded-full font-bold text-black shadow-lg shadow-orange-300 border-2 border-orange-200 lg:mr-5"> <a href={cv} download="cv.pdf"> MY Resume </a></button>
+                    <button className="btn bg-white rounded-full font-bold text-black shadow-lg shadow-orange-300 border-2 border-orange-200 lg:mr-5 hover:bg-[#ccfcec]"> <a href={cv} download="Muzbah Uddin Resume.pdf"> MY Resume </a></button>
                 </div>
             </div>
         </div>

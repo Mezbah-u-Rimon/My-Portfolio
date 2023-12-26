@@ -23,7 +23,7 @@ const Portfolio = () => {
                                     Asset management is the full-stack web application. It includes admin panel employee panel and simple user registration panel. Admin panel will show admin pages, and employee panel will show employee pages. If the user is not logged in then the login page will show the employee registration page and the admin/HR registration page...
                                 </p>
                                 <div className="card-actions">
-                                    <a href="https://asset-management-website.netlify.app/?fbclid=IwAR1BfBXqITYx3O3lGNZTPaWvlfc7ZGrs7D2l5AYu8Xmt2WRU7Gwi96nM7Vk" target="_blank" rel="noreferrer">
+                                    <a href="https://asset-management-0001.netlify.app/?fbclid=IwAR1vYK6bRv8syybqNmIROTROmsj9JW1eogr-lYGhLaQSDUml_gvlRqoMjc4" target="_blank" rel="noreferrer">
                                         <button className="btn shadow-lg shadow-orange-300"> Live Link</button>
                                     </a>
                                     <a href="https://github.com/Mezbah-u-Rimon/asset-management" target="_blank" rel="noreferrer">

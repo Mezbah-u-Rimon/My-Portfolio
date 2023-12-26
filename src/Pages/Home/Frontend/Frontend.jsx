@@ -5,24 +5,45 @@ const Frontend = () => {
         <div className="px-5 md:px-12 lg:px-24 pb-24 pt-10">
             <h1 className="text-center text-4xl font-bold text-orange-500 mb-10"> My Front-End Knowledge
             </h1>
-            <div role="tablist" className="tabs tabs-lifted justify-center">
-                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="HTML5" checked />
-                <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                    <div className="flex justify-between">
-                        <div>
-                            text
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div>
+                    <div className="mb-8">
+                        <div className="flex justify-between mb-1">
+                            <span className="text-base font-medium text-[#E34C26] dark:text-white">HTML5 </span>
+                            <span className="text-sm font-medium text-[#E34C26] dark:text-white">95%</span>
                         </div>
-                        <div className="radial-progress" style={{ "--value": 70 }} role="progressbar">70%
+                        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                            <div className="bg-[#E34C26] h-2.5 rounded-full" style={{ width: "95%" }}></div>
                         </div>
                     </div>
-
+                    <div className="mb-8">
+                        <div className="flex justify-between mb-1">
+                            <span className="text-base font-medium text-[#2965f1] dark:text-white">CSS3</span>
+                            <span className="text-sm font-medium text-[#2965f1] dark:text-white">93%</span>
+                        </div>
+                        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                            <div className="bg-[#2965f1] h-2.5 rounded-full" style={{ width: "93%" }}></div>
+                        </div>
+                    </div>
+                    <div className="mb-8">
+                        <div className="flex justify-between mb-1">
+                            <span className="text-base font-medium text-[#3490dc] dark:text-white">Tailwind CSS</span>
+                            <span className="text-sm font-medium text-[#3490dc] dark:text-white">93%</span>
+                        </div>
+                        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                            <div className="bg-[#3490dc] h-2.5 rounded-full" style={{ width: "93%" }}></div>
+                        </div>
+                    </div>
+                    <div className="mb-8">
+                        <div className="flex justify-between mb-1">
+                            <span className="text-base font-medium text-[#3490dc] dark:text-white">JavaScript</span>
+                            <span className="text-sm font-medium text-[#3490dc] dark:text-white">93%</span>
+                        </div>
+                        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                            <div className="bg-[#3490dc] h-2.5 rounded-full" style={{ width: "93%" }}></div>
+                        </div>
+                    </div>
                 </div>
-
-                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="CSS3" />
-                <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">Tab content 2</div>
-
-                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="JavaScript" />
-                <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">Tab content 3</div>
             </div>
         </div>
     );

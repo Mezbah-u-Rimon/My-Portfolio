@@ -1,7 +1,7 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
-// import Frontend from "../Frontend/Frontend";
+import Frontend from "../Frontend/Frontend";
 import Portfolio from "../Portfolio/Portfolio";
 import Skills from "../Skills/Skills";
 
@@ -11,7 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <Skills></Skills>
-            {/* <Frontend></Frontend> */}
+            <Frontend></Frontend>
             <Portfolio></Portfolio>
             <Contact></Contact>
 
