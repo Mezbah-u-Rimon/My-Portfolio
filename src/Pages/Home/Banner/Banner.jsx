@@ -1,5 +1,4 @@
 import banner from "../../../assets/images/BG-IMG-1.gif"
-// import rimon1 from "../../../assets/images/rimon0.png"
 import { TypeAnimation } from 'react-type-animation';
 import cv from "../../../../public/Muzbah Uddin.pdf"
 import rimon from "../../../assets/images/rimon-2.png"
